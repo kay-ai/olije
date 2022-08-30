@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*, body{
+    font-family: 'Nunito', sans-serif !important;
+}
+
+nav.navbar{
+    padding: 10px 65px 10px 65px;
+    background-color: #399A19;
+    position: fixed;
+    width: 100%;
+}
+
+.o-input{
+    height: 35px;
+    width: 235px;
+    padding-left: 40px;
+    border: 1px solid #399a19;
+    border-radius: 5px;
+}
+
+.navbar .fa-search{
+    margin-right: -30px;
+    z-index: 1;
+}
+
+.nav-content{
+    margin-left: 75px;
+}
+
+.navbar-brand{
+    font-size: 28px !important;
+    font-weight: 600;
+}
+
+.navbar-brand-logo{
+    height: 55px;
+}
+
+.navbar .nav-item.active{
+    border-bottom: 3px solid #FFA010;
+}
+
+.navbar .nav-link{
+    color: #fff !important;
+}
+
+/* Welcome Page CSS */
+section.hero{
+    height: 600px;
+    display: flex;
+    background-image: url('/img/hero_bg.png');
+    background-color: #399A19;
+    padding: 100px 100px 0 100px;
+}
+
+section.hero .hero-img{
+    height: 450px;
+}
+
+
