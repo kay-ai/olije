@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
 
-*, body{
+body{
     font-family: 'Nunito', sans-serif !important;
 }
 
 nav.navbar{
-    padding: 10px 65px 10px 65px;
+    padding: 10px 100px 10px 100px;
     background-color: #399A19;
     position: fixed;
     width: 100%;
+    z-index: 10;
 }
 
 .o-input{
@@ -43,6 +44,53 @@ nav.navbar{
 
 .navbar .nav-link{
     color: #fff !important;
+    font-size: 14px;
+}
+
+.navbar .nav-item{
+    margin: 5px;
+}
+
+.navbar .nav-avatar{
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+.navbar .nav-avatar img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.navbar .dropdown-menu{
+    top: 135%;
+    width: 200px;
+    left: -5px;
+    border-radius: 5px;
+    padding: 5px 10px 0 10px;
+}
+
+.navbar .dropdown-item{
+    padding: 8px 10px;
+    font-size: 14px;
+    font-weight: 700;
+    border-bottom: 1px solid #399a1963;
+    color: #399A19;
+    transition: all 0.5s;
+}
+
+.navbar .dropdown-item:hover{
+    padding-left: 20px !important;
+    background-color: unset;
+    color: #286913;
+}
+
+.nav-circle{
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding-top: 4px !important;
 }
 
 /* Welcome Page CSS */
@@ -58,4 +106,69 @@ section.hero .hero-img{
     height: 450px;
 }
 
+.carousel-div{
+    align-items: center;
+    display: flex;
+}
+
+#hero-carousel{
+    width: 92%;
+    height: 320px;
+}
+
+.carousel-indicators{
+    justify-content: flex-start !important;
+    margin: 0 !important;
+}
+
+.carousel-indicators li{
+    height: 6px !important;
+    border-top: unset !important;
+    border-bottom: unset !important;
+    border-radius: 5px;
+    width: 25px !important;
+    transition: all 2.5s;
+}
+
+.carousel-indicators li.active{
+    width: 75px !important;
+}
+
+.fw-800{
+    font-weight: 800 !important;
+}
+
+.txt-secondary{
+    color: #FFA010 !important;
+}
+
+.hero-sm-txt{
+    font-size: 13px;
+}
+
+.hero-form{
+    margin-left: 15px;
+    margin-top: 35px;
+}
+
+.hero-input{
+    height: 50px;
+    width: 100%;
+    padding-left: 40px;
+    border: 1px solid #399a19;
+    border-radius: 5px;
+}
+
+.hero-form .fa-search{
+    margin-right: -30px;
+    z-index: 1;
+}
+
+.o-btn-secondary{
+    color: #000 !important;
+    font-weight: 500 !important;
+    background-color: #FFA010 !important;
+    border-color: #FFA010 !important;
+    padding: 8px 40px !important;
+}
 
