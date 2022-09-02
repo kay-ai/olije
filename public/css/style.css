@@ -4,6 +4,33 @@ body{
     font-family: 'Nunito', sans-serif !important;
 }
 
+body::-webkit-scrollbar {
+    width: 10px;
+    }
+
+/* Track */
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.103);
+
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+    background: #4f5d91;
+    border-radius: 5px;
+    border: 4.5px solid transparent;
+    background-clip: content-box;
+    transition: all 0.3s;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+    background: #4f5d91;
+    border-radius: 5px;
+    border: 3px solid transparent;
+    background-clip: content-box;
+}
+
 nav.navbar{
     padding: 10px 100px 10px 100px;
     background-color: #399A19;
@@ -95,7 +122,7 @@ nav.navbar{
 
 /* Welcome Page CSS */
 section.hero{
-    height: 600px;
+    height: 590px;
     display: flex;
     background-image: url('/img/hero_bg.png');
     background-color: #399A19;
@@ -170,5 +197,73 @@ section.hero .hero-img{
     background-color: #FFA010 !important;
     border-color: #FFA010 !important;
     padding: 8px 40px !important;
+}
+
+.main-page{
+    padding: 20px 100px;
+}
+
+.featured-products{
+    padding: 10px 75px;
+    background: #FAFAFA;
+    border-radius: 5px;
+}
+
+.featured-products .owl-item{
+    background: #C4F3B5;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.featured-products .owl-item .item{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+.featured-products .owl-dots{
+    display: none;
+}
+
+.featured-products .owl-nav{
+    position: absolute;
+    top: 25%;
+    width: 100%;
+}
+
+.featured-products .owl-nav .owl-prev{
+    left: -65px;
+    position: absolute;
+    font-size: 30px !important;
+    background: #399A19 !important;
+    color: #fff !important;
+    width: 46px;
+    border-radius: 50%;
+}
+
+.featured-products .owl-nav .owl-next{
+    right: -65px;
+    position: absolute;
+    font-size: 30px !important;
+    background: #399A19 !important;
+    color: #fff !important;
+    width: 46px;
+    border-radius: 50%;
+}
+
+.featured-products .featuredP-name{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.featured-products .featuredP-img{
+    width: 70% !important;
+    margin: auto;
 }
 
