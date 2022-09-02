@@ -43,5 +43,92 @@
             </div>
         </div>
     </section>
+    <section class="main-page">
+        <div class="featured-products">
+            <div class="owl-carousel products-carousel owl-theme">
+                <div class="item">
+                    <img src="{{asset('img/featured-img-1.png')}}" class="featuredP-img">
+                    <p class="featuredP-name">Mobile Phones</p>
+                </div>
+                <div class="item">
+                    <img src="{{asset('img/featured-img-2.png')}}" class="featuredP-img">
+                    <p class="featuredP-name">Vehicles & Cars</p>
+                </div>
+                <div class="item">
+                    <img src="{{asset('img/featured-img-3.png')}}" class="featuredP-img">
+                    <p class="featuredP-name">Properties</p>
+                </div>
+                <div class="item">
+                    <img src="{{asset('img/featured-img-4.png')}}" class="featuredP-img">
+                    <p class="featuredP-name">Electronics</p>
+                </div>
+                <div class="item">
+                    <img src="{{asset('img/featured-img-5.png')}}" class="featuredP-img">
+                    <p class="featuredP-name">Furnitures</p>
+                </div>
+                <div class="item">
+                    <img src="{{asset('img/featured-img-5.png')}}" class="featuredP-img">
+                    <p class="featuredP-name">Furnitures</p>
+                </div>
+                <div class="item">
+                    <img src="{{asset('img/featured-img-2.png')}}" class="featuredP-img">
+                    <p class="featuredP-name">Vehicles & Cars</p>
+                </div>
+                <div class="item">
+                    <img src="{{asset('img/featured-img-5.png')}}" class="featuredP-img">
+                    <p class="featuredP-name">Furnitures</p>
+                </div>
+                <div class="item">
+                    <img src="{{asset('img/featured-img-5.png')}}" class="featuredP-img">
+                    <p class="featuredP-name">Furnitures</p>
+                </div>
+                <div class="item">
+                    <img src="{{asset('img/featured-img-2.png')}}" class="featuredP-img">
+                    <p class="featuredP-name">Vehicles & Cars</p>
+                </div>
+                <div class="item">
+                    <img src="{{asset('img/featured-img-6.png')}}" class="featuredP-img">
+                    <p class="featuredP-name">Sport Wears</p>
+                </div>
+                <div class="item">
+                    <img src="{{asset('img/featured-img-7.png')}}" class="featuredP-img">
+                    <p class="featuredP-name">Baby Products</p>
+                </div>
+                <div class="item">
+                    <img src="{{asset('img/featured-img-1.png')}}" class="featuredP-img">
+                    <p class="featuredP-name">Mobile Phones</p>
+                </div>
+                <div class="item">
+                    <img src="{{asset('img/featured-img-8.png')}}" class="featuredP-img">
+                    <p class="featuredP-name">Automobile</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
 @endsection
+
+@push('js-bottom')
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            autoplay:true,
+            autoplayTimeout:5000,
+            autoplayHoverPause:true,
+            responsive:{
+                0:{
+                    items:2
+                },
+                600:{
+                    items:4
+                },
+                1000:{
+                    items:7
+                }
+            }
+        })
+    </script>
+@endpush
 
