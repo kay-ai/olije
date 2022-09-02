@@ -32,6 +32,7 @@
 
         {{-- Owl Carousel --}}
         <script src="{{asset('js/owl.carousel.js')}}"></script>
+        <script src="{{asset('js/jquery.mousewheel.min.js')}}"></script>
 
         @stack('js-bottom')
     </body>
