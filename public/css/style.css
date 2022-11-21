@@ -4,18 +4,18 @@ body{
     font-family: 'Nunito', sans-serif !important;
 }
 
-body::-webkit-scrollbar {
+.clean-scrollbar::-webkit-scrollbar {
     width: 10px;
     }
 
 /* Track */
-body::-webkit-scrollbar-track {
+.clean-scrollbar::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.103);
 
 }
 
 /* Handle */
-body::-webkit-scrollbar-thumb {
+.clean-scrollbar::-webkit-scrollbar-thumb {
     background: #4f5d91;
     border-radius: 5px;
     border: 4.5px solid transparent;
@@ -24,7 +24,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* Handle on hover */
-body::-webkit-scrollbar-thumb:hover {
+.clean-scrollbar::-webkit-scrollbar-thumb:hover {
     background: #4f5d91;
     border-radius: 5px;
     border: 3px solid transparent;
@@ -127,6 +127,11 @@ section.hero{
     background-image: url('/img/hero_bg.png');
     background-color: #399A19;
     padding: 100px 100px 0 100px;
+}
+
+.hero .hero-row{
+    align-self: end;
+    width: 100%;
 }
 
 section.hero .hero-img{
@@ -266,4 +271,106 @@ section.hero .hero-img{
     width: 70% !important;
     margin: auto;
 }
+
+.hide-on-mobile{
+    display: flex;
+}
+
+.show-on-mobile{
+    display: none;
+}
+
+@media screen and (max-width:1000px) {
+    nav.navbar{
+        padding: 10px 15px 10px 15px;
+        z-index: 999;
+    }
+
+    .navbar-toggler{
+        border: unset !important;
+        padding: 0px !important;
+        border-color: unset !important;
+    }
+
+    .navbar-toggler:focus{
+        outline: 1px dotted;
+    }
+
+    .hero .hero-content-div{
+        margin-top: 70px;
+    }
+
+    .nav-content {
+        margin: 15px;
+    }
+
+    .hide-on-mobile{
+        display: none;
+    }
+
+    .show-on-mobile{
+        display: flex;
+    }
+
+    .main-page{
+        padding: 20px 0;
+    }
+
+    .sell-btn{
+        background-color: #FFA010 !important;
+        border-color: #FFA010 !important;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .navbar-brand-logo {
+        height: 45px;
+    }
+
+    .navbar-brand{
+        font-size: 20px !important;
+        margin-right: unset !important;
+    }
+
+    section.hero{
+        padding: 10px;
+    }
+
+    .hero .hero-row{
+        align-self: center;
+    }
+
+    .hero .hero-img-div{
+        display: none;
+    }
+
+    .hero .mobile-txt{
+        font-size: 30px;
+    }
+
+    #hero-carousel {
+        height: calc(100% + 30px);
+    }
+
+    .form-mobile{
+        margin-left: 15px;
+    }
+
+    .form-mobile .o-input{
+        width: 104%;
+    }
+
+    .hero-input{
+        width: 104%;
+        padding-right: 10px;
+    }
+
+    .navbar-nav .dropdown-menu {
+        position: absolute !important;
+        left: -155px;
+        top: 125%;
+    }
+}
+
+
 
