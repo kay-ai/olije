@@ -4,7 +4,7 @@
     <section class="hero">
         <div class="row hero-row">
             <div class="col-md-6 hero-img-div">
-                <img class="hero-img" src="{{asset('img/hero_girl2.png')}}" alt="girl_with_shopping_bag">
+                <img class="hero-img" src="{{asset('img/hero_girl.png')}}" alt="girl_with_shopping_bag">
             </div>
             <div class="col-md-6 hero-content-div carousel-div justify-content-end">
                 <div id="hero-carousel" class="carousel slide" data-ride="carousel">
@@ -44,7 +44,7 @@
         </div>
     </section>
     <section class="main-page">
-        <div class="featured-products">
+        <div class="featured-products mb-3">
             <div class="owl-carousel products-carousel owl-theme">
                 <div class="item">
                     <img src="{{asset('img/featured-img-1.png')}}" class="featuredP-img">
@@ -104,13 +104,208 @@
                 </div>
             </div>
         </div>
+        <div class="ads mb-5">
+            <p class="section-name">Top Selling Ads</p>
+            <div class="owl-carousel ads-carousel owl-theme">
+                <div class="item">
+                    <div>
+                        <img src="{{asset('img/ads-img1.png')}}" class="featuredP-img">
+                        <div class="bottom-section d-flex">
+                            <div>
+                                <p class="featuredP-name">Laptops HP Envy 12GB Intel</p>
+                                <p class="featuredP-price">NGN 350,000.00</p>
+                            </div>
+                            <a name="" id="" class="o-btn" href="#" role="button">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div>
+                        <img src="{{asset('img/ads-img2.png')}}" class="featuredP-img">
+                        <div class="bottom-section d-flex">
+                            <div>
+                                <p class="featuredP-name">Used - Peaugeot 2015</p>
+                                <p class="featuredP-price">NGN 150,000.00</p>
+                            </div>
+                            <a name="" id="" class="o-btn" href="#" role="button">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div>
+                        <img src="{{asset('img/ads-img3.png')}}" class="featuredP-img">
+                        <div class="bottom-section d-flex">
+                            <div>
+                                <p class="featuredP-name">New - LG Smart TV 2022</p>
+                                <p class="featuredP-price">NGN 450,000.00</p>
+                            </div>
+                            <a name="" id="" class="o-btn" href="#" role="button">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div>
+                        <img src="{{asset('img/ads-img4.png')}}" class="featuredP-img">
+                        <div class="bottom-section d-flex">
+                            <div>
+                                <p class="featuredP-name">New - Laptops HP NVIDIA 8GB</p>
+                                <p class="featuredP-price">NGN 950,000.00</p>
+                            </div>
+                            <a name="" id="" class="o-btn" href="#" role="button">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div>
+                    <img src="{{asset('img/ads-img5.png')}}" class="featuredP-img">
+                    <div class="bottom-section d-flex">
+                        <div>
+                            <p class="featuredP-name">Used - Toyota Corola 2016</p>
+                            <p class="featuredP-price">NGN 1,050,000.00</p>
+                        </div>
+                        <a name="" id="" class="o-btn" href="#" role="button">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div>
+                        <img src="{{asset('img/ads-img6.png')}}" class="featuredP-img">
+                        <div class="bottom-section d-flex">
+                            <div>
+                                <p class="featuredP-name">New - Felux Bicycle</p>
+                                <p class="featuredP-price">NGN 150,000.00</p>
+                            </div>
+                            <a name="" id="" class="o-btn" href="#" role="button">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div>
+                        <img src="{{asset('img/ads-img7.png')}}" class="featuredP-img">
+                        <div class="bottom-section d-flex">
+                            <div>
+                                <p class="featuredP-name">New - Power Bike Dest</p>
+                                <p class="featuredP-price">NGN 2,050,000.00</p>
+                            </div>
+                            <a name="" id="" class="o-btn" href="#" role="button">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div>
+                    <img src="{{asset('img/ads-img8.png')}}" class="featuredP-img">
+                    <div class="bottom-section d-flex">
+                        <div>
+                            <p class="featuredP-name">New - Tricycle 368 Model</p>
+                            <p class="featuredP-price">NGN 170,000.00</p>
+                        </div>
+                        <a name="" id="" class="o-btn" href="#" role="button">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div>
+                    <img src="{{asset('img/ads-img9.png')}}" class="featuredP-img">
+                    <div class="bottom-section d-flex">
+                        <div>
+                            <p class="featuredP-name">New - Balaciaga Suite</p>
+                            <p class="featuredP-price">NGN 50,000.00</p>
+                        </div>
+                        <a name="" id="" class="o-btn" href="#" role="button">
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div>
+                        <img src="{{asset('img/ads-img10.png')}}" class="featuredP-img">
+                        <div class="bottom-section d-flex">
+                            <div>
+                                <p class="featuredP-name">Used - Delina Trouser</p>
+                                <p class="featuredP-price">NGN 37,000.00</p>
+                            </div>
+                            <a name="" id="" class="o-btn" href="#" role="button">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div>
+                        <img src="{{asset('img/ads-img11.png')}}" class="featuredP-img">
+                        <div class="bottom-section d-flex">
+                            <div>
 
+                                <p class="featuredP-name">New - Felux Suit</p>
+                                <p class="featuredP-price">NGN 150,000.00</p>
+                            </div>
+                            <a name="" id="" class="o-btn" href="#" role="button">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div>
+                        <img src="{{asset('img/ads-img4.png')}}" class="featuredP-img">
+                        <div class="bottom-section d-flex">
+                            <div>
+                                <p class="featuredP-name">Laptops HP Envy 12GB Intel</p>
+                                <p class="featuredP-price">NGN 350,000.00</p>
+                            </div>
+                            <a name="" id="" class="o-btn" href="#" role="button">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="post-ads mt-5">
+            <div class="row">
+                <div class="col-md-9 post-ads-bg">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="post-ads-img" src="{{asset('img/post-ad-img.png')}}" alt="post-ad-img" srcset="">
+                        </div>
+                        <div class="col-md-8 d-flex text-div">
+                            <div>
+                               <h3>
+                                    Learn how to connect to a vendor
+                                    via this platform
+                                </h3>
+                                <a href="/">Click here</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+        </div>
     </section>
 @endsection
 
 @push('js-bottom')
     <script>
-        var owl = $('.owl-carousel');
+        var owl = $('.products-carousel');
         owl.owlCarousel({
             loop:true,
             margin:10,
@@ -127,6 +322,27 @@
                 },
                 1000:{
                     items:7
+                }
+            }
+        })
+
+        var ads = $('.ads-carousel');
+        ads.owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            autoplay:false,
+            autoplayTimeout:10000,
+            autoplayHoverPause:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:2
+                },
+                1000:{
+                    items:4
                 }
             }
         })
