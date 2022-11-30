@@ -22,7 +22,7 @@
     <body class="clean-scrollbar">
         @include('includes.navbar')
         @yield('content')
-
+        @include('includes.footer')
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
