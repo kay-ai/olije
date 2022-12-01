@@ -282,7 +282,7 @@
         <div class="main2 mb-5">
             <div class="post-ads mt-4">
                 <div class="row">
-                    <div class="col-md-9 pr-2 post-ads-bg">
+                    <div class="col-md-9 post-ads-bg">
                         <div class="row">
                             <div class="col-md-5">
                                 <img class="post-ads-img" src="{{asset('img/post-ad-img.png')}}" alt="post-ad-img" srcset="">
@@ -298,7 +298,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 pl-2 pr-0">
+                    <div class="col-md-3 post-ads-bg2-div pr-0">
                         <div class="p-3 post-ads-bg2">
                             <p class="text-white text1">-Do you have something to sell ?</p>
                             <a name="" id="" class="btn btn-ads mb-3" href="#" role="button">Post An Ads Now</a>
@@ -314,7 +314,7 @@
                     <div class="col-md-12 p-1">
                         <p class="section-name mb-0">Trending Ads</p>
                     </div>
-                    <div class="col-md-3 p-1">
+                    <div class="col-md-3 mobile-50 p-1">
                         <div>
                             <img src="{{asset('img/ads-img1.png')}}" class="featuredP-img">
                             <div class="bottom-section d-flex">
@@ -328,7 +328,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 p-1">
+                    <div class="col-md-3 mobile-50 p-1">
                         <div>
                             <img src="{{asset('img/ads-img2.png')}}" class="featuredP-img">
                             <div class="bottom-section d-flex">
@@ -342,7 +342,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 p-1">
+                    <div class="col-md-3 mobile-50 p-1">
                         <div>
                             <img src="{{asset('img/ads-img3.png')}}" class="featuredP-img">
                             <div class="bottom-section d-flex">
@@ -356,7 +356,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 p-1">
+                    <div class="col-md-3 mobile-50 p-1">
                         <div>
                             <img src="{{asset('img/ads-img4.png')}}" class="featuredP-img">
                             <div class="bottom-section d-flex">
@@ -370,7 +370,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 p-1">
+                    <div class="col-md-3 mobile-50 p-1">
                         <div>
                             <img src="{{asset('img/ads-img5.png')}}" class="featuredP-img">
                             <div class="bottom-section d-flex">
@@ -384,7 +384,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 p-1">
+                    <div class="col-md-3 mobile-50 p-1">
                         <div>
                             <img src="{{asset('img/ads-img6.png')}}" class="featuredP-img">
                             <div class="bottom-section d-flex">
@@ -398,7 +398,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 p-1">
+                    <div class="col-md-3 mobile-50 p-1">
                         <div>
                             <img src="{{asset('img/ads-img7.png')}}" class="featuredP-img">
                             <div class="bottom-section d-flex">
@@ -412,7 +412,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 p-1">
+                    <div class="col-md-3 mobile-50 p-1">
                         <div>
                             <img src="{{asset('img/ads-img8.png')}}" class="featuredP-img">
                             <div class="bottom-section d-flex">
@@ -426,7 +426,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 p-1">
+                    <div class="col-md-3 mobile-50 p-1">
                         <div>
                             <img src="{{asset('img/ads-img9.png')}}" class="featuredP-img">
                             <div class="bottom-section d-flex">
@@ -440,7 +440,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 p-1">
+                    <div class="col-md-3 mobile-50 p-1">
                         <div>
                             <img src="{{asset('img/ads-img10.png')}}" class="featuredP-img">
                             <div class="bottom-section d-flex">
@@ -454,7 +454,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 p-1">
+                    <div class="col-md-3 mobile-50 p-1">
                         <div>
                             <img src="{{asset('img/ads-img11.png')}}" class="featuredP-img">
                             <div class="bottom-section d-flex">
@@ -468,7 +468,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 p-1">
+                    <div class="col-md-3 mobile-50 p-1">
                         <div>
                             <img src="{{asset('img/ads-img4.png')}}" class="featuredP-img">
                             <div class="bottom-section d-flex">
@@ -482,7 +482,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 p-1">
+                    <div class="col-md-3 mobile-50 p-1">
                         <div>
                             <img src="{{asset('img/ads-img12.png')}}" class="featuredP-img">
                             <div class="bottom-section d-flex">
@@ -496,7 +496,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 p-1">
+                    <div class="col-md-3 mobile-50 p-1">
                         <div>
                             <img src="{{asset('img/ads-img3.png')}}" class="featuredP-img">
                             <div class="bottom-section d-flex">
@@ -510,7 +510,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 p-1">
+                    <div class="col-md-3 mobile-50 p-1">
                         <div>
                             <img src="{{asset('img/ads-img13.png')}}" class="featuredP-img">
                             <div class="bottom-section d-flex">
@@ -524,7 +524,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 p-1">
+                    <div class="col-md-3 mobile-50 p-1">
                         <div>
                             <img src="{{asset('img/ads-img14.png')}}" class="featuredP-img">
                             <div class="bottom-section d-flex">
@@ -538,7 +538,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 p-1">
+                    <div class="col-md-3 mobile-50 p-1">
                         <div>
                             <img src="{{asset('img/ads-img2.png')}}" class="featuredP-img">
                             <div class="bottom-section d-flex">
@@ -552,7 +552,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 p-1">
+                    <div class="col-md-3 mobile-50 p-1">
                         <div>
                             <img src="{{asset('img/ads-img15.png')}}" class="featuredP-img">
                             <div class="bottom-section d-flex">
@@ -566,7 +566,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 p-1">
+                    <div class="col-md-3 mobile-50 p-1">
                         <div>
                             <img src="{{asset('img/ads-img16.png')}}" class="featuredP-img">
                             <div class="bottom-section d-flex">
@@ -580,7 +580,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 p-1">
+                    <div class="col-md-3 mobile-50 p-1">
                         <div>
                             <img src="{{asset('img/ads-img17.png')}}" class="featuredP-img">
                             <div class="bottom-section d-flex">
@@ -594,7 +594,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 p-1">
+                    <div class="col-md-3 mobile-50 p-1">
                         <div>
                             <img src="{{asset('img/ads-img18.png')}}" class="featuredP-img">
                             <div class="bottom-section d-flex">
@@ -608,7 +608,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 p-1">
+                    <div class="col-md-3 mobile-50 p-1">
                         <div>
                             <img src="{{asset('img/ads-img19.png')}}" class="featuredP-img">
                             <div class="bottom-section d-flex">
@@ -622,7 +622,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 p-1">
+                    <div class="col-md-3 mobile-50 p-1">
                         <div>
                             <img src="{{asset('img/ads-img20.png')}}" class="featuredP-img">
                             <div class="bottom-section d-flex">
@@ -636,7 +636,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 p-1">
+                    <div class="col-md-3 mobile-50 p-1">
                         <div>
                             <img src="{{asset('img/ads-img4.png')}}" class="featuredP-img">
                             <div class="bottom-section d-flex">
@@ -650,7 +650,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 p-1">
+                    <div class="col-md-3 mobile-50 p-1">
                         <div>
                             <img src="{{asset('img/ads-img21.png')}}" class="featuredP-img">
                             <div class="bottom-section d-flex">
@@ -664,7 +664,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 p-1">
+                    <div class="col-md-3 mobile-50 p-1">
                         <div>
                             <img src="{{asset('img/ads-img3.png')}}" class="featuredP-img">
                             <div class="bottom-section d-flex">
@@ -678,7 +678,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 p-1">
+                    <div class="col-md-3 mobile-50 p-1">
                         <div>
                             <img src="{{asset('img/ads-img1.png')}}" class="featuredP-img">
                             <div class="bottom-section d-flex">
@@ -692,7 +692,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 p-1">
+                    <div class="col-md-3 mobile-50 p-1">
                         <div>
                             <img src="{{asset('img/ads-img22.png')}}" class="featuredP-img">
                             <div class="bottom-section d-flex">

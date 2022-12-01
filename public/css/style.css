@@ -7,8 +7,10 @@
     --yellow-darker: #b8720a;
     --greenee: #399A19;
     --green-brighter: #37B34A;
+    --green-dark: #1B6503;
     --green-darker: #175104;
     --transition-normal: all 0.5s;
+
 }
 
 body{
@@ -447,6 +449,10 @@ section.hero .hero-img{
     color: var(--yellow-darker);
 }
 
+.post-ads-bg2-div{
+    padding-left: 0.5rem !important;
+}
+
 .post-ads .post-ads-bg2{
     background-color:var(--greenee);
     background-image: url(/img/hero_bg1.png);
@@ -523,8 +529,106 @@ section.hero .hero-img{
 }
 
 .footer{
-    height: 420px;
-    background: var(--green-darker);
+    height: 100%;
+    background: var(--green-dark);
+    overflow-x: clip;
+    margin-top: 70px;
+}
+
+.footer-row{
+    padding: 50px 100px 0 150px;
+}
+
+.footer-list{
+    list-style: none;
+    padding-left: 10px;
+}
+
+.footer-list .list-item{
+    padding: 10px;
+    font-size: 13px;
+}
+
+.footer-list .list-item a{
+    color: var(--white) !important;
+    text-decoration: none;
+    transition: var(--transition-normal);
+}
+
+.footer-list .list-item a:hover{
+    color: var(--yellowee) !important;
+}
+
+.footer-row .mockup-div{
+    margin-top: -215px;
+}
+
+.footer-row .text-header{
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--white);
+}
+
+.footer-row .text-body{
+    font-size: 14px;
+    color: var(--white) !important;
+}
+
+.footer .o-input{
+    width: 100%;
+    padding-left: 15px;
+}
+
+.footer form .btn-sm{
+    margin-left: -35px;
+    background: var(--yellowee) !important;
+    border-color: var(--yellowee) !important;
+    transition: var(--transition-normal);
+}
+
+.footer form .btn-sm:hover{
+    background: var(--yellow-dark) !important;
+    border-color: var(--yellow-dark) !important;
+}
+
+.mockup-app{
+    margin-left: 25px;
+}
+
+.appstore{
+    position: relative;
+    width: 105px;
+}
+
+.appstore::before{
+    content: '';
+    width: 35px;
+    height: 30px;
+    background: var(--white);
+    position: absolute;
+    left: 5px;
+    top: 6px;
+    z-index: 1;
+}
+
+.appstore img{
+    z-index: 3;
+    position: absolute;
+    top: -3px;
+}
+
+.footer-credits{
+    height: 70px;
+    font-weight: 700;
+    font-size: 12px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-credits p{
+    margin-bottom: 0;
 }
 
 /* Media Queries */
@@ -606,6 +710,12 @@ section.hero .hero-img{
     .ads .owl-item{
         height: 280px;
     }
+
+    .main2{
+        padding: 10px 35px;
+    }
+
+
 }
 
 @media screen and (max-width:500px) {
@@ -655,6 +765,100 @@ section.hero .hero-img{
         position: absolute !important;
         left: -155px;
         top: 125%;
+    }
+
+    .post-ads-bg{
+    }
+
+    .post-ads .text-div h3{
+        font-size: 15px;
+    }
+
+    .post-ads .text-div{
+        text-align: center;
+    }
+
+    .post-ads-bg2-div{
+        padding-left: 0 !important;
+    }
+
+    .post-ads-bg2{
+        text-align: center;
+    }
+
+    .trending-ads .bottom-section{
+        padding: 7px;
+        align-items: center;
+    }
+
+    .trending-ads .bottom-section div{
+        padding-right: 5px;
+    }
+
+    .trending-ads .o-btn{
+        width: 25px;
+        height: 25px;
+        font-size: 12px;
+    }
+
+    .trending-ads .featuredP-name{
+        font-size: 9px;
+    }
+
+    .trending-ads .featuredP-price{
+        font-size: 9px;
+        font-weight: 800;
+    }
+
+    .footer-row {
+        padding: 40px;
+    }
+
+    .footer-row .logo-name{
+        width: 65%;
+    }
+
+    .mobile-50{
+        width: 50% !important;
+    }
+
+    .footer-list {
+        padding-left: 0px;
+        margin-bottom: 50px;
+    }
+
+    .footer-list .list-item{
+        font-size: 11px;
+    }
+
+    .footer .o-input {
+        width: 100%;
+        padding-left: 15px;
+    }
+
+    .footer .mockup-div{
+        display: none !important;
+    }
+
+    .footer .mockup-app{
+        width: 70%;
+    }
+
+    .footer .app-div{
+        margin-top: -140px;
+    }
+
+    .app-div .download{
+        position: absolute;
+    }
+
+    .app-div .download.playstore{
+        bottom: 0;
+        right: 0;
+    }
+
+    .app-div .download img{
+        width: 90px;
     }
 }
 
