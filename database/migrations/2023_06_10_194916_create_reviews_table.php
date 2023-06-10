@@ -17,11 +17,10 @@ class CreateReviewsTable extends Migration
             $table->id();
             $table->integer('vendor_id');
             $table->integer('rating');
-            $table->integer('ad_id');
             $table->text('comment');
             $table->foreignId('user_id')->constrained()->cascadeOnDelete();
-            $table->foreignId('author_id')->constrained(table: 'users', indexName: 'fk_review_author_id')->cascadeOnDelete();
-            $table->foreignId('ad_id')->constrained(table: 'ads', indexName: 'fk_review_ad_id')->cascadeOnDelete();
+            $table->foreignId('author_id')->constrained('users')->cascadeOnDelete();
+            $table->foreignId('ad_id')->constrained()->cascadeOnDelete();
             $table->timestamps();
         });
 

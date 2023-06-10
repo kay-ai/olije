@@ -21,7 +21,7 @@ class CreateAdsTable extends Migration
             $table->string('keywords')->nullable();
             $table->integer('amount');
             $table->enum('status', ['1','0'])->default('0');
-            $table->foreignId('vendor_id')->constrained(table: 'vendors', indexName: 'fk_ad_vendor_id')->cascadeOnDelete();
+            $table->foreignId('vendor_id')->constrained()->cascadeOnDelete();
             $table->timestamps();
         });
     }

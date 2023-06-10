@@ -22,8 +22,8 @@ class CreateVendorsTable extends Migration
             $table->bigInteger('phone')->nullable();
             $table->string('address')->nullable();
             $table->foreignId('user_id')->constrained()->cascadeOnDelete();
-            $table->foreignId('category_id')->constrained()->nullOnDelete();
-            $table->foreignId('country_id')->constrained()->nullOnDelete();
+            $table->foreignId('category_id')->constrained();
+            $table->foreignId('country_id')->constrained();
             $table->timestamps();
         });
 
