@@ -23,28 +23,60 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 mx-auto bg-white mt-5 mb-5">
-                        <p>Welcome back! Please enter your details.</p>
-                        <form method="post" action="">
-                            <div class="form-group mb-2">
-                                <input type="email" name="email" class="form-control" placeholder="Email..." required>
-                            </div>
-                            <div class="form-group mb-2">
-                                <input type="password" name="password" class="form-control" placeholder="Password..." required>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <div class="form-group">
-                                        <input type="checkbox" class="form-checkbox">
+                        <p>Welcome! Please create your account below.</p>
+                        <x-auth-card>
+
+                            <!-- Validation Errors -->
+                            <x-auth-validation-errors class="mb-4" :errors="$errors" />
+
+                            <form method="POST" action="{{ route('register') }}">
+                                @csrf
+
+                                <!-- Name -->
+                                <div>
+                                    <x-label for="name" :value="__('Name')" />
+
+                                    <x-input id="name" class="form-control" type="text" name="name" :value="old('name')" required autofocus />
+                                </div>
+
+                                <!-- Email Address -->
+                                <div class="mt-4">
+                                    <x-label for="email" :value="__('Email')" />
+
+                                    <x-input id="email" class="form-control" type="email" name="email" :value="old('email')" required />
+                                </div>
+
+                                <!-- Password -->
+                                <div class="mt-4">
+                                    <x-label for="password" :value="__('Password')" />
+
+                                    <x-input id="password" class="form-control"
+                                                    type="password"
+                                                    name="password"
+                                                    required autocomplete="new-password" />
+                                </div>
+
+                                <!-- Confirm Password -->
+                                <div class="mt-4">
+                                    <x-label for="password_confirmation" :value="__('Confirm Password')" />
+
+                                    <x-input id="password_confirmation" class="form-control"
+                                                    type="password"
+                                                    name="password_confirmation" required />
+                                </div>
+
+                                <div class="row text-center mt-4">
+                                    <div class="col-md-4 m-auto">
+                                        <x-button class="ml-0">
+                                            {{ __('Register') }}
+                                        </x-button>
                                     </div>
                                 </div>
-                                <div class="col-md-4"></div>
-                                <div class="col-md-4">
-                                    <div class="form-group">
-                                        <label>Forgot password?</label>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
+                                <p class="text-center">
+                                    <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('login') }}">Already registered?</a>
+                                </p>
+                            </form>
+                        </x-auth-card>
                     </div>
                 </div>
             </div>
