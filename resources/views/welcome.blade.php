@@ -27,7 +27,7 @@
                             </form>
                         </div>
                         <div class="carousel-item">
-                            <h1 class="fw-800 mobile-txt text-white"><span class="txt-secondary">Make Money</span> Working From Home On Our Affiliate Network.</h1>
+                            <h1 class="fw-800 mobile-txt text-white"><span class="txt-secondary">Make Money</span> Working From Dashboard On Our Affiliate Network.</h1>
                             <p class="text-white hero-sm-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 Orci bibendum mauris proin et. Montes, egestas cras
                                 tristique adipiscing ipsum est.Lorem ipsum dolor sit

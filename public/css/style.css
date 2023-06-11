@@ -134,6 +134,11 @@ nav.navbar{
 }
 
 /* Welcome Page CSS */
+section.page-hero{
+    height: 200px;
+    padding: 100px 100px 0 100px;
+}
+
 section.hero{
     height: 590px;
     display: flex;
@@ -859,6 +864,11 @@ section.hero .hero-img{
 
     .app-div .download img{
         width: 90px;
+    }
+
+    section.page-hero{
+        height: 300px;
+        padding: 100px 100px 0 100px;
     }
 }
 

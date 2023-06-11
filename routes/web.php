@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,10 +14,30 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::middleware('guest')->group(function () {
+    Route::get('/', function () {
+        return view('welcome');
+    })->name('home');
+
+    Route::get('/profile', [HomeController::class, 'profile'])->name('profile');
+
+    Route::get('/my-ads', [HomeController::class, 'profile'])->name('my-ads');
+
+    Route::get('/settings', [HomeController::class, 'profile'])->name('settings');
+
+    Route::get('/ad-performance', [HomeController::class, 'adperformance'])->name('ad-performance');
+
+    Route::get('/affiliate-marketting', [HomeController::class, 'affiliate'])->name('affiliate-marketting');
+
+    Route::get('/sell', [HomeController::class, 'sell'])->name('sell');
+
+    Route::get('/wallet', [HomeController::class, 'wallet'])->name('wallet');
+
+    Route::get('/feedback', [HomeController::class, 'feedback'])->name('feedback');
 });
 
-Auth::routes();
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+require __DIR__.'/auth.php';
