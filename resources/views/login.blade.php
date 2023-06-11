@@ -7,16 +7,14 @@
     <div class="row">
         <div class="col-md-6">
             <div class="row">
-
                 <div class="col-md-4 m-auto">
                     <img src="{{asset('img/login-illustration.png')}}" class="featuredP-img">
                 </div>
-                <div class="row">
-                    <div class="col-md-8 m-auto">
-                        <p><b class="text-success">Connect</b> with a vendor within a twinkle of an eye...</p>
-                    </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 text-center m-auto">
+                    <p><b class="text-success">Connect</b> with a vendor within a twinkle of an eye...</p>
                 </div>
-
             </div>
         </div>
         <div class="col-md-6" style="background:url('{{asset('img/auth-bg.png')}}');background-size:cover">
