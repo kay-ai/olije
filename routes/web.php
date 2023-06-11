@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,8 +14,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::middleware('guest')->group(function () {
+    Route::get('/', function () {
+        return view('welcome');
+    })->name('dashboard');
+
+    Route::get('/profile', [HomeController::class, 'profile'])->name('profile');
+
+    Route::get('/my-ads', [HomeController::class, 'profile'])->name('my-ads');
+
+    Route::get('/settings', [HomeController::class, 'profile'])->name('settings');
 });
 
 Route::get('/dashboard', function () {
