@@ -9,11 +9,11 @@
             <div class="row">
 
                 <div class="col-md-4 m-auto">
-                    <img src="{{asset('img/login-page.png')}}" class="featuredP-img">
+                    <img src="{{asset('img/login-illustration.png')}}" class="featuredP-img">
                 </div>
                 <div class="row">
                     <div class="col-md-8 m-auto">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci bibendum mauris proin et. Montes, egestas cras tristique adipiscing ipsum est.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci bibendum mauris proin et. Montes, egestas cras tristique adipiscing ipsum est.</p>
+                        <p><b class="text-success">Connect</b> with a vendor within a twinkle of an eye...</p>
                     </div>
                 </div>
 
