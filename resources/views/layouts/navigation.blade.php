@@ -24,7 +24,7 @@
                         <img src="{{ asset('img/man-avatar.png') }}" alt="">
                     </a>
                     <div class="dropdown-menu shadow" aria-labelledby="dropdownId">
-                        @if(Auth::user())
+                        @guest
                         <a class="dropdown-item" href="{{route('register')}}">Register</a>
                         <a class="dropdown-item" href="{{route('login')}}">Login</a>
                         @else
@@ -40,7 +40,7 @@
                             <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                                 @csrf
                             </form>
-                        @endif
+                        @endguest
                     </div>
                 </li>
             </div>
